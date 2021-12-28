@@ -1,0 +1,8 @@
+<p>product-details works!</p>
+
+<div *ngIf= product>
+<h1>Produit : {{product.id}}</h1>
+<h2>{{product.name}}</h2>
+<p>{{product.description}}</p>
+<h3>{{product.price | currency:"EUR":"symbol"}} </h3>
+</div>    
